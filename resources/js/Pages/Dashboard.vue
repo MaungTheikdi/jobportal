@@ -74,9 +74,6 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head, Link, router } from '@inertiajs/vue3'
 import { ref, onMounted } from 'vue';
-//import TransferChart from '@/Pages/Transfers/TransferChart.vue'
-//import TransactionChart from './Components/TransactionChart.vue';
-import DailyTransfers from '@/Pages/Transfers/DailyTransfers.vue';
 import SummaryCard from '@/Pages/Components/SummaryCard.vue'
 import Calendar from '@/Pages/Components/Calendar.vue';
 import axios from 'axios';

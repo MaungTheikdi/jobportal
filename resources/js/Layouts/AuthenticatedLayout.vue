@@ -85,18 +85,6 @@ const showingNavigationDropdown = ref(false);
                                                     </button>
                                                 </span>
                                             </template>
-                                            <template #content>
-                                                <DropdownLink :href="route('leagues.index')" :active="route().current('leagues.index')">
-                                                    လိဒ်များ
-                                                </DropdownLink>
-                                                <DropdownLink :href="route('teams.index')" :active="route().current('teams.index')">
-                                                    အသင်းများ 
-                                                </DropdownLink>
-                                                <DropdownLink :href="route('bet_type.index')" :active="route().current('bet_type.index')">
-                                                    လောင်းကစားအမျိုးအစား
-                                                </DropdownLink>
-                                                <!-- Add more general links here as needed -->
-                                            </template>
                                         </Dropdown>
                                     </div>
                                 </div>
