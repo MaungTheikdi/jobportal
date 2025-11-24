@@ -1,0 +1,9 @@
+@import 'datatables.net-buttons-dt';
+@import 'datatables.net-fixedcolumns-dt';
+@import 'datatables.net-fixedheader-dt';
+@import 'datatables.net-responsive-dt';
+@import 'datatables.net-searchbuilder-dt';
+@import 'datatables.net-searchpanes-dt';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
